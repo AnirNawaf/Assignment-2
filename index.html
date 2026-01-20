@@ -14,17 +14,20 @@
     <header>
         <nav class="flex justify-around items-center p-2">
             <div>
-                <h1 class="font-bold text-2xl sm:font-bold text-3xl">Tech <span>Wave</span></h1>
+                <h1 class="font-bold text-2xl sm:font-bold text-4xl">Tech<span class="bg-[linear-gradient(20deg,_#F7E93F_10%,_#A632F9_50%,_#FB09B4_80%)] bg-clip-text text-transparent transition-all duration-100">Wave</span></h1>
             </div>
             <div class="">
-                <ul class="hidden md:flex gap-2.5 ">
+                <ul class="hidden md:flex gap-5 ">
                     <li><a href="#">About</a></li>
                     <li><a href="#"> Episodes</a></li>
                     <li><a href="#"> Host</a></li>
                 </ul>
             </div>
-            <div>
-                <button class="hidden md:flex gap-2 hover:bg-amber-900">Subcribe <img src="assets/Vector (3).png"alt=""></button>
+            <div><button class="hidden md:flex cursor-progress h-[35px] w-[200px] font-bold flex items-center justify-center gap-2  rounded-2xl bg-[linear-gradient(20deg,_#F7E93F_10.36%,_#FB09B4_80.06%,_#A632F9_50.06%)] cursor-pointer transition-all duration-100 gap-2 hover:scale-130 hover:border-2 hover:border-green-600 transition-transform">
+                Listen On Spotify<img src="assets/Vector (3).png" alt="">
+                </button>
+
+                
             </div>
             <div class=" sm:hidden">
                 <img src="assets/hamburger-menu.png" alt="">
@@ -42,20 +45,17 @@
 
             <img src="assets/hero-circle.png" class=" md:absolute top-[100px] right-[530px] w-72 h-72"alt="microphone-bg">
             <img src="assets/microphone.png" class=" md:absolute top-[163px] right-[620px] w-28 h-40" alt="microphone">
-            <p
-                class="md:absolute text-black  font-black bg-[#00FF88] text-center w-16 h-8 top-[110px] right-[540px] rounded-2xl ">
-                NEW</p>
+            <p class="md:absolute text-black  font-black bg-[#00FF88] text-center w-16 h-8 top-[110px] right-[540px] rounded-2xl ">NEW</p>
             <div class="absolute text-center  top-[430px] right-[400px] ">
 
                 <h1 class="font-bold text-[55px]">TechWave</h1>
                 <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
-                <div class="flex gap-2 justify-center p-4">
-                    <button
-                        class="h-[35px] w-[200px] flex items-center justify-center   gap-2 bg-green-700 border-green-700 rounded-2xl"><img
-                            src="assets/spotify.png" alt="">Listen On Spotify</button>
-                    <button
-                        class="h-[35px] w-[150px] flex items-center justify-center text-center gap-2 bg-transparent border-2 border-green-700 rounded-2xl"><img
-                            src="assets/message.png" alt="">Subscribe</button>
+                <div class="flex gap-12 justify-center p-4">
+                    <button class=" md:h-[35px] w-[200px] cursor-progress font-bold flex items-center justify-center gap-2  rounded-2xl bg-[linear-gradient(20deg,_#F7E93F_10.36%,_#FB09B4_80.06%,_#A632F9_50.06%)] cursor-pointer transition-all duration-100 hover:scale-130 hover:border-2 hover:border-white transition-transform">
+                        <img src="assets/spotify.png" alt="">Listen On Spotify
+                    </button>
+                    <button class=" text-[#00FF88] hover:scale-150 hover:border-2 cursor-progress hover:border-black transition-transform h-[35px] w-[150px] flex items-center justify-center text-center gap-2 bg-transparent border-2 border-green-700 rounded-2xl"><img src="assets/message.png"alt="">Subscribe
+                    </button>
                 </div>
 
 
@@ -80,9 +80,8 @@
                 <p>Your daily dose of tech insights, productivity hacks, <br> and personal growth</p>
                 <div class="flex gap-2 justify-center p-4  md:hidden ">
                     <button
-                        class="h-[35px] w-[170px] flex items-center justify-center   gap-2 bg-green-700 border-green-700 rounded-2xl  md:hidden "><img src="assets/spotify.png" alt="">Listen On Spotify</button>
-                    <button
-                        class="h-[35px] w-[150px] flex items-center justify-center text-center gap-2 bg-transparent border-2 border-green-700 rounded-2xl hover:bg-green-600  md:hidden "><img src="assets/message.png" alt="">Subscribe</button>
+                        class="h-[35px] w-[170px] flex items-center justify-center  rounded-2xl gap-2 bg-[linear-gradient(20deg,_#F7E93F_10.36%,_#FB09B4_80.06%,_#A632F9_50.06%)] cursor-pointer transition-all duration-100 hover:scale-130 hover:border-2 hover:border-none transition-transform  md:hidden "><img src="assets/spotify.png" alt="">Listen On Spotify</button>
+                    <button class="text-[#00FF88] h-[35px] w-[150px] flex items-center justify-center text-center gap-2 bg-transparent border-2 border-green-700 rounded-2xl hover:scale-130 hover:border-2 hover:bg-blue-500 hover:border-y-teal-600 transition-transform  md:hidden "><img src="assets/message.png" alt="">Subscribe</button>
                 </div>
 
 
@@ -95,10 +94,7 @@
     <section class="about-product text-center my-7 ">
         <div>
             <h1 class="text-2xl font-bold md:text-[45px] font-bold">About the Podcast</h1>
-            <p class="my-1">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>
-                We break down complex topics into digestible insights, explore productivity strategies that actually
-                work, <br> and share stories of personal growth from industry leaders. <br><br> Join thousands of young
-                professionals and tech enthusiasts who start their day with TechWave.</p>
+            <p class="my-1">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br> We break down complex topics into digestible insights, explore productivity strategies that actually work, <br> and share stories of personal growth from industry leaders. <br><br> Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
 
         </div>
         <hr class="mx-auto my-16 w-[300px] md:w-[900px] border-t-2 border-black">
@@ -136,7 +132,7 @@
 
         <div class=" md:grid grid-cols-6 grid-rows-3 p-7 gap-7">
 
-            <div class="my-3 p-0 md:col-span-2 row-span-2   p-5  bg-[#351165] rounded-2xl text-start">
+            <div class="my-3 p-0  md:col-span-2 cursor-pointer row-span-2 hover:scale-107 hover:border-2 hover:border-none transition-transform  p-5  bg-[#351165] rounded-2xl text-start">
                 <div class="p-4 pt-20">
                     <img src="assets/headphone.png" alt="headphone">
                     <h1 class="text-2xl pt-6 font-bold">Premium Audio Quality</h1>
@@ -145,21 +141,21 @@
                         all devices <br> and platforms.</p>
                 </div>
             </div>
-            <div class="my-3 md:col-span-4 row-span-1 p-5 bg-[#351165] rounded-2xl">
+            <div class="my-3 md:col-span-4 cursor-pointer row-span-1 p-5  hover:scale-107 hover:border-2 hover:border-none transition-transform bg-[#351165] rounded-2xl">
                 <div class="p-4">
                     <img src="assets/device.png" alt="mobile-phone">
                     <h1 class="text-2xl font-bold pt-6">Mobile Friendly</h1>
                     <p class="pt-6">EListen on the go with seamless mobile experience and offline downloads.</p>
                 </div>
             </div>
-            <div class="my-4 p-0 md:col-span-4 row-span-1 p-5  bg-[#351165] rounded-2xl">
+            <div class="my-4 p-0 md:col-span-4 row-span-1 p-5 cursor-pointer hover:scale-107 hover:border-2 hover:border-none transition-transform  bg-[#351165] rounded-2xl">
                 <div class="p-0 md:p-4">
                     <img src="assets/location.png" alt="mobile-phone">
                     <h1 class="text-2xl font-bold pt-6">Global Community</h1>
                     <p class="pt-6">Connect with tech enthusiasts from over 120 countries worldwide.</p>
                 </div>
             </div>
-            <div class="my-4 p-0 md:col-span-4 row-span-1 p-5 bg-[#351165] rounded-2xl">
+            <div class="my-4 p-0 md:col-span-4 row-span-1 cursor-pointer hover:scale-107 hover:border-2 hover:border-none transition-transform p-5 bg-[#351165] rounded-2xl">
                 <div class="p-4">
                     <img src="assets/Icon (Stroke).png" alt="mobile-phone">
                     <h1 class="text-2xl font-bold pt-6">Exclusive Interviews</h1>
@@ -168,7 +164,7 @@
                         their <br> journeys, failures, and success strategies.</p>
                 </div>
             </div>
-            <div class="my-3 p-0 md:col-span-2 row-span-1 p-5 bg-[#351165] rounded-2xl">
+            <div class="my-3 p-0 md:col-span-2 cursor-pointer row-span-1 p-5 hover:scale-107 hover:border-2 hover:border-none transition-transform bg-[#351165] rounded-2xl">
                 <div class="">
                     <img src="assets/resource.png" alt="mobile-phone">
                     <h1 class="text-2xl font-bold pt-6">Rich Resources</h1>
@@ -184,20 +180,20 @@
     </section>
 
     <section class="featured h-[700px]">
-        <div class="text-center font-bold  text-2xl p-3 md:text-center font-bold text-5xl p-5 ">
+        <div class="text-center font-bold text-3xl  md:text-5xl p-10">
             <h1>Featured Episides</h1>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 grid-rows-1 gap-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 grid-rows-1 gap-4 p-4  ">
 
-            <div class="">
+            <div class="hover:scale-107 cursor-pointer hover:border-2 hover:border-none transition-transform">
 
                 <div class=" absolute  ">
                     <img src="assets/Rectangle 1.png" alt="img1">
-                    <img class="absolute top-[85px] right-[160px]" src="assets/Group 9.png" alt="but">
+                    <img class="absolute cursor-progress top-[85px] right-[160px]" src="assets/Group 9.png" alt="but">
 
                 </div>
-                <div class="absolute h-56 bg-[#250D44] w-[382px] my-[215px] rounded-b-2xl">
+                <div class="absolute h-56  bg-[#250D44] w-[382px] my-[215px] rounded-b-2xl">
                     <div class=" p-4 ">
                         <h1 class="text-2xl font-bold">The Future of AI in Everyday <br> Life</h1>
                         <p class="my-2">Exploring how artificial intelligence is <br> transforming our daily routines
@@ -210,11 +206,11 @@
                 </div>
 
             </div>
-            <div class="my-[450px] md:my-0">
+            <div class="my-[450px] cursor-pointer md:my-0 hover:scale-107 hover:border-2 hover:border-none transition-transform">
 
                 <div class=" absolute  ">
                     <img src="assets/Rectangle 1 (1).png" alt="img2">
-                    <img class="absolute top-[85px] right-[160px]" src="assets/Group 9.png" alt="but">
+                    <img class="absolute cursor-progress top-[85px] right-[160px]" src="assets/Group 9.png" alt="but">
 
                 </div>
                 <div class="absolute h-56 bg-[#250D44] w-[382px] my-[215px] rounded-b-2xl">
@@ -230,11 +226,11 @@
                 </div>
             </div>
 
-            <div class="">
+            <div class="hover:scale-107 cursor-pointer hover:border-2 hover:border-none transition-transform">
 
                 <div class=" absolute  ">
                     <img src="assets/Rectangle 1 (2).png" alt="img3">
-                    <img class="absolute top-[85px] right-[160px]" src="assets/Group 9.png" alt="but">
+                    <img class="absolute cursor-progress top-[85px] right-[160px]" src="assets/Group 9.png" alt="but">
 
                 </div>
                 <div class="absolute h-56 bg-[#250D44] w-[382px] my-[215px] rounded-b-2xl">
@@ -256,9 +252,11 @@
 
 
 
+
+
     </section>
 
-    <section class="my-[800px] border-2 md:my-0">
+    <section class="my-[800px] md:my-0">
 
         <div>
             <h1 class=" text-center font-bold text-3xl p-6 pt-10">Meet The Host</h1>
@@ -278,10 +276,17 @@
                             anyone looking to grow in tech.</p>
 
                         <div class="flex justify-center md:justify-start items-center gap-3 p-2">
-                            <div class="border-2 border-[#533C72] h-7 w-7 rounded-4xl"><img class="my-1 mx-1"src="assets/linkedin.png" alt="linkedin"></div>
-                            <div class="border-2 border-[#533C72] h-7 w-7 rounded-4xl"><img class="my-1 mx-1" src="assets/x.png" alt="Twiter"></div>
-                            <div class="border-2 border-[#533C72] h-7 w-7 rounded-4xl"><img class="my-1 mx-1"src="assets/instagram.png" alt="instagram"></div>
-                            <div class="border-2 border-[#533C72] h-7 w-7 rounded-4xl"><img class="my-1 mx-1"src="assets/youtube.png" alt="youtube"></div>
+                            <div class="border-2 cursor-pointer border-[#533C72] h-7 w-7 rounded-4xl hover:scale-107 hover:border-2 hover:border-black transition-transform ">
+                                <img class="my-1 mx-1 cursor-progress "src="assets/linkedin.png" alt="linkedin">
+                            </div>
+                            <div class="border-2 cursor-pointer border-[#533C72] h-7 w-7 rounded-4xl hover:scale-107 hover:border-2 hover:border-black transition-transform">
+                                <img class="my-1 cursor-progress mx-1" src="assets/x.png" alt="Twiter"></div>
+                            <div class="border-2 cursor-pointer border-[#533C72] h-7 w-7 rounded-4xl hover:scale-107 hover:border-2 hover:border-black transition-transform">
+                                <img class="my-1 cursor-progress mx-1"src="assets/instagram.png"alt="instagram">
+                            </div>
+                            <div class="border-2 cursor-pointer border-[#533C72] h-7 w-7 rounded-4xl hover:scale-107 hover:border-2 hover:border-black transition-transform">
+                                <img class="my-1 cursor-progress mx-1"src="assets/youtube.png" alt="youtube">
+                            </div>
                         </div>
 
                     </div>
@@ -296,7 +301,7 @@
 
 
 
-    <footer class="border-2">
+    <footer class="-my-[700px] md:my-0">
 
         <div class="w-full md:w-full relative my-14">
             <img class="hidden md:block md:w-full" src="assets/footer-bg.png" alt="footer-bg" src="assets/footer-bg.png" alt=" footer-bg">
@@ -306,33 +311,33 @@
             <div class="absolute top-[40px] left-[55px] md:top-[105px] md:right-[10px] flex justify-center text-center">
 
                 <div class="text-center items-center h-auto w-full md:w-[500px] px-4">
-                    <h1 class="font-bold text-2xl md:text-6xl">Tech<span>Wave</span></h1>
+                    <h1 class="font-bold text-2xl md:text-6xl">Tech<span class="bg-[linear-gradient(20deg,_#F7E93F_10%,_#A632F9_50%,_#FB09B4_80%)] bg-clip-text text-transparent transition-all duration-100">Wave</span></h1>
 
 
 
 
                     <div class=" grid grid-cols-2 md:grid-cols-4 gap-4 my-3">
-                        <div class="flex items-center gap-2">
+                        <div class="flex cursor-pointer items-center gap-2 hover:scale-112 hover:border-2 hover:border-none transition-transform">
                             <img src="assets/spotify.png" alt="spotify">
                             <P>Spotify</P>
                         </div>
-                        <div class="flex items-center gap-2">
+                        <div class="flex cursor-pointer items-center gap-2 hover:scale-112 hover:border-2 hover:border-none transition-transform">
                             <img src="assets/apple-podcast.png" alt="apple-podcast">
-                            <P>Spotify</P>
+                            <P>Apple Products</P>
                         </div>
-                        <div class="flex items-center gap-2">
+                        <div class="flex cursor-pointer items-center gap-2  hover:scale-112 hover:border-2 hover:border-none transition-transform">
                             <img src="assets/youtube-podcast.png" alt="Youtube">
-                            <P>Spotify</P>
+                            <P>YouTube</P>
                         </div>
-                        <div class="flex items-center gap-2">
+                        <div class="flex cursor-pointer  items-center gap-2 hover:scale-112 hover:border-2 hover:border-none transition-transform">
                             <img src="assets/twitter.png" alt="Twiter">
-                            <P>Spotify</P>
+                            <P>Twitter</P>
                         </div>
 
 
                     </div>
 
-                    <P class=" my-4">&COPY; 2026 TechWave Podcast. All rights reserved.</P>
+                    <P class=" my-6">&COPY; 2026 TechWave Podcast. All rights reserved.</P>
 
                 </div>
 
@@ -340,6 +345,7 @@
         </div>
 
     </footer>
+
 
 </body>
 
